@@ -10,4 +10,4 @@ A React component:
 * within the render function, JSX (which is compiled by Babel into JS functions)
 * has state
 
-Left of at about 39:51 (here)[https://www.youtube.com/watch?v=kzcyGNsj858].
+Left of at about 43:07 [here](https://www.youtube.com/watch?v=kzcyGNsj858).
