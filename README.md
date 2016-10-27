@@ -4,10 +4,16 @@ A component, generally speaking, is an independent piece of the application. One
 
 React is the "V" in MVC. It can be connected with a state management library such as Redux.
 
+Benefits of using React (taken from multiple sources):
+
+* updating the React Virtual DOM is a more efficient way of making changes to the view of a web application.
+* unidirectional data binding
+* the use of components
+
 A React component:
 
 * a render function (the only function that is required in a React component)
-* within the render function, JSX (which is compiled by Babel into JS functions)
+* within the render function, optional JSX (which is compiled by Babel into JS functions)
 * has state
 
 Left of at about 43:07 [here](https://www.youtube.com/watch?v=kzcyGNsj858).
