@@ -29,6 +29,7 @@ var App = React.createClass({
         <div id="header"></div>
         <div className="container">
           <div className="column">
+            // and this appears to be another component
             <InboxPane />
           </div>
           <div className="column"></div>
@@ -40,3 +41,6 @@ var App = React.createClass({
   }
 });
 ```
+###CSS Scoping
+
+Nothing horribly interesting here. Apparently it is common to wrap the JSX in a containing div and to simply use child/descendent selectors in CSS to target ONLY the contents of that component. If I'm not mistaken, Angular has a more interesting way of accomplishing this.
