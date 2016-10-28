@@ -44,3 +44,7 @@ var App = React.createClass({
 ###CSS Scoping
 
 Nothing horribly interesting here. Apparently it is common to wrap the JSX in a containing div and to simply use child/descendent selectors in CSS to target ONLY the contents of that component. If I'm not mistaken, Angular has a more interesting way of accomplishing this.
+
+###Component Lifecycle
+
+Every component has a lifecycle. 
