@@ -15,7 +15,28 @@ Benefits of using React (taken from multiple sources):
 A React component:
 
 * a render function (the only function that is required in a React component)
-* within the render function, optional JSX (which is compiled by Babel into JS functions)
+* within the render function, optional JSX (which is compiled by Babel into JS functions, and which must have only one parent element)
 * has state
 
-Left of at about 43:07 [here](https://www.youtube.com/watch?v=kzcyGNsj858).
+In this tutorial, which may or may not be out of date, it looks like they're creating components like this:
+
+```js
+var App = React.createClass({
+  render : function() {
+    return (
+      // start JSX
+      <div>
+        <div id="header"></div>
+        <div className="container">
+          <div className="column">
+            <InboxPane />
+          </div>
+          <div className="column"></div>
+          <div className="column"></div>
+        </div>
+      </div>
+      // end JSX
+    )
+  }
+});
+```
